@@ -1,0 +1,184 @@
+.header {
+	background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../images/claire4.jpg") no-repeat center center fixed;
+	 -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+	background-size: cover;
+}
+
+.about-wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 40px 0 40px 0px;
+}
+
+.about-wrapper h2 {
+	color: #731264;
+	font-size: 2em;
+	margin: 20px 0 50px 0;
+}
+
+#title-highlight {
+	color: #FC9607;
+}
+
+.about-first-block {
+	display: flex;
+	flex-direction: row;
+}
+
+.about-second-block {
+	display: flex;
+	flex-direction: row;
+}
+
+.about-images {
+	width: 57.5vw;
+}
+
+#about-first-image {
+	background: url("../images/claire+louise.jpg") no-repeat top left;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+	background-size: cover;
+	height: 114vh;
+  transform: rotateY(180deg);
+}
+
+#about-second-image {
+	background: url("../images/dumbbells.jpg") no-repeat center center;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+	background-size: cover;
+	height: 100vh;
+}
+
+.about-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 0 40px; 
+	max-width: 700px;
+}
+
+#about-column {
+	flex-direction: column;
+}
+
+#about-column .blockquote {
+	margin: 20px 0 0 20px;
+}
+
+.cta-block {
+	display: flex;
+  flex-direction: column;
+  margin: 40px 0;
+  align-items: center;
+}
+
+#about-cta {
+	color: #731264;
+	display: flex;
+	text-align: center;
+	max-width: 700px;
+	margin-top: 40px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 1.3em;
+	text-transform: uppercase;
+}
+
+.blockquote {
+	display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 90px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+	color: #FC9607;
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+}
+
+.blockquote p {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	max-width: 520px;
+}
+
+@media screen and (max-width: 1023px) {
+	.about-first-block {
+		flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+	.about-second-block {
+		flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .about-images {
+  	width: 80%
+  }
+  #about-first-image {
+  	height: 80vh;
+  }
+  #about-second-image {
+  	display: none;
+  }
+  .about-wrapper h2{
+  	margin-bottom: 20px;
+  }
+  #about-cta{
+  	margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+	.about-wrapper {
+		padding: 0 20px;
+	}
+/*	.about-first-block .about-text {
+	}*/
+	.about-second-block .about-text {
+		padding: 0 10px;
+	}
+	.quote {
+		margin-bottom: -20px;
+	}
+	.blockquote {
+  	flex-direction: column;
+  	text-align: center;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.about-images {
+		width: 100vw;
+	}
+	#about-first-image {
+		height: 70vh;
+	}
+}
