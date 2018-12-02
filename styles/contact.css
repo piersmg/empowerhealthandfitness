@@ -55,6 +55,17 @@ input:focus + span, input:not(:-ms-input-placeholder) + span {
   transform: scale(0.75) translateY(-150%) translateX(-30px);
 }
 
+form p {
+	margin-bottom: 0px;
+}
+
+textarea {
+	margin-top: 20px;
+	font-family: 'Quicksand', arial, sans-serif;
+	color: #000;
+	font-size: 0.9em;
+}
+
 #name-fields{
 	display: flex;
   flex-direction: row;
@@ -93,6 +104,10 @@ input:focus + span, input:not(:-ms-input-placeholder) + span {
 }
 
 #saveForm:hover {
+	border-color: #FC9607;
+}
+
+#saveForm:focus {
 	border-color: #FC9607;
 }
 

@@ -66,8 +66,14 @@
 		  		<input placeholder=" " name="Phone number" id="telephone" type="tel" required maxlength="255" tabindex="4">
 		  		<span>Phone number *</span>
 				</label>
+				<p>Please answer the questions below to tell me a bit more about you:</p>
+		  		<textarea placeholder="What is the most important health and fitness goal you would like to achieve?" name="Health and fitness goals" id="goals" type="textarea" required tabindex="5" rows="3" cols="54"></textarea>
+		  		<textarea placeholder="How would you describe your current level of fitness? (Don't worry, a lack of experience can be a huge positive as it means you'll progess very quickly when you start a programme with me)" name="Level of fitness" id="levels" type="textarea" required tabindex="6" rows="5" cols="54"></textarea>
+		  		<textarea placeholder="How would you describe your current diet, and your relationship with food?" name="Diet" id="diet" type="textarea" required tabindex="7" rows="3" cols="54"></textarea>
+		  		<textarea placeholder="How many hours per week can you realistically dedicate to exercising?" name="Hours per week" id="hours" type="textarea" required tabindex="8" rows="3" cols="54"></textarea>
+		  		<textarea placeholder="Personal training is a financial investment in your long term health and happiness, and working with me gives you the best chance of achieving your goals. Are you prepared to make an investment in order to achieve these goals?" name="Investment" id="investment" type="textarea" required tabindex="9" rows="5" cols="54"></textarea>
 				<input id="saveForm" name="saveForm" class="btTxt submit"
-					    type="submit" value="Submit" />
+					    type="submit" value="Submit" tabindex="10" />
 			
 			</form>  
     </div>
@@ -95,9 +101,5 @@
 
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
 	<script type="text/javascript" src="scripts/script.js"></script>
-	<script src="scripts/wufoo.js"></script>
-	<!--[if lt IE 10]>
-	<script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
 
 </html>
