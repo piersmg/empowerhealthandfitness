@@ -64,6 +64,7 @@ textarea {
 	font-family: 'Quicksand', arial, sans-serif;
 	color: #000;
 	font-size: 0.9em;
+	border-color: #731264;
 }
 
 #name-fields{
@@ -118,9 +119,8 @@ textarea {
 .contact-wrapper {
 	margin: 40px 0;
 	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+	flex-direction: row;
+	justify-content: space-evenly;
 	padding: 0 40px;
 }
 
@@ -128,6 +128,57 @@ textarea {
 	color: #731264;
 	font-size: 2em;
 	margin: 20px 0 30px 0;
+}
+
+.consult-form {
+	display: flex;
+	flex-direction: column;
+}
+
+.contact-info {
+	display: flex;
+	flex-direction: column;
+}
+
+.map {
+	background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../images/map.jpg") no-repeat center center;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+	background-size: cover;
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.map-no-overlay {
+	background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)), url("../images/map.jpg") no-repeat center center;
+}
+
+.map-info {
+	background-color: rgba(0,0,0,0.4);;
+	border: solid white 5px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 80%;
+}
+
+.map-info-hide {
+	display: none;
+}
+
+#map-link {
+	text-decoration: none;
+}
+
+.map-info p {
+	font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  font-size: 1.4em;
+  text-transform: uppercase;
+  color: #fff;
 }
 
 @media screen and (max-width: 768px) {
