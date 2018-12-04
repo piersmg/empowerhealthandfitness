@@ -68,6 +68,10 @@ textarea {
 	width: 393px;
 }
 
+textarea:focus {
+  border-color: #FC9607;
+}
+
 #name-fields{
 	display: flex;
   flex-direction: row;
