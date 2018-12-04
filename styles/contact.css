@@ -55,6 +55,23 @@ input:focus + span, input:not(:-ms-input-placeholder) + span {
   transform: scale(0.75) translateY(-150%) translateX(-30px);
 }
 
+form p {
+	margin-bottom: 0px;
+}
+
+textarea {
+	margin-top: 20px;
+	font-family: 'Quicksand', arial, sans-serif;
+	color: #000;
+	font-size: 0.9em;
+	border-color: #731264;
+	width: 393px;
+}
+
+textarea:focus {
+  border-color: #FC9607;
+}
+
 #name-fields{
 	display: flex;
   flex-direction: row;
@@ -96,6 +113,10 @@ input:focus + span, input:not(:-ms-input-placeholder) + span {
 	border-color: #FC9607;
 }
 
+#saveForm:focus {
+	border-color: #FC9607;
+}
+
 .hide {
 	display: none;
 }
@@ -103,9 +124,8 @@ input:focus + span, input:not(:-ms-input-placeholder) + span {
 .contact-wrapper {
 	margin: 40px 0;
 	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+	flex-direction: row;
+	justify-content: space-evenly;
 	padding: 0 40px;
 }
 
@@ -115,5 +135,83 @@ input:focus + span, input:not(:-ms-input-placeholder) + span {
 	margin: 20px 0 30px 0;
 }
 
-@media screen and (max-width: 768px) {
+.consult-form {
+	display: flex;
+	flex-direction: column;
+}
+
+.contact-info {
+	display: flex;
+	flex-direction: column;
+}
+
+.map {
+	background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../images/map.jpg") no-repeat center center;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+	background-size: cover;
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.map-no-overlay {
+	background: url("../images/map.jpg") no-repeat center center;
+}
+
+.map-info {
+	background-color: rgba(0,0,0,0.4);;
+	border: solid white 5px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	width: 80%;
+}
+
+.map-info-hide {
+	display: none;
+}
+
+#map-link {
+	text-decoration: none;
+}
+
+.map-info p {
+	font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  font-size: 1.4em;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+@media screen and (max-width: 900px) {
+	.contact-wrapper {
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	form {
+		margin: 0 auto 30px auto;
+	}
+}
+
+@media screen and (max-width: 425px){
+	form {
+		width: 100%;
+	}
+	#last-name {
+		width: 100%;
+	}
+	textarea {
+		width: 100%;		
+	}
+}
+
+@media screen and (max-width: 400px){
+	#investment {
+		height: 130px;
+	}
 }

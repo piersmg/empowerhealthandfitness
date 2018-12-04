@@ -11,7 +11,6 @@
 		<title>Contact | Empower Health and Fitness</title>
 		<link rel="stylesheet" href="styles/styles.css">
 		<link rel="stylesheet" href="styles/contact.css">
-		<!-- <link rel="stylesheet" href="styles/form.css"> -->
 		<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:600,700" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -44,6 +43,8 @@
 
 		<div class="contact-wrapper">
 
+			<div class="consult-form">
+
 			<h2>Book Your Free Consultation</h2>
 			<form id="form1" name="form1" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" method="POST" novalidate
       action="https://formspree.io/cjmacdiarmid@gmail.com">
@@ -66,19 +67,37 @@
 		  		<input placeholder=" " name="Phone number" id="telephone" type="tel" required maxlength="255" tabindex="4">
 		  		<span>Phone number *</span>
 				</label>
+				<p>Please answer the questions below to tell me a bit more about you:</p>
+		  		<textarea placeholder="What is the most important health and fitness goal you would like to achieve?" name="Health and fitness goals" id="goals" type="textarea" required tabindex="5" rows="3" cols="54"></textarea>
+		  		<textarea placeholder="How would you describe your current level of fitness? (Don't worry, a lack of experience can be a huge positive as it means you'll progess very quickly when you start a programme with me)" name="Level of fitness" id="levels" type="textarea" required tabindex="6" rows="5" cols="54"></textarea>
+		  		<textarea placeholder="How would you describe your current diet, and your relationship with food?" name="Diet" id="diet" type="textarea" required tabindex="7" rows="3" cols="54"></textarea>
+		  		<textarea placeholder="How many hours per week can you realistically dedicate to exercising?" name="Hours per week" id="hours" type="textarea" required tabindex="8" rows="3" cols="54"></textarea>
+		  		<textarea placeholder="Personal training is a financial investment in your long term health and happiness, and working with me gives you the best chance of achieving your goals. Are you prepared to make an investment in order to achieve these goals?" name="Investment" id="investment" type="textarea" required tabindex="9" rows="5" cols="54"></textarea>
 				<input id="saveForm" name="saveForm" class="btTxt submit"
-					    type="submit" value="Submit" />
+					    type="submit" value="Submit" tabindex="10" />
 			
-			</form>  
-    </div>
+			</form> 
 
-		<div class="cta-block">
-			<p id="about-cta"><strong>Everyone's "strong", "fit" and "healthy" looks different so let's sit down together, figure out what that is, and make it happen.</strong></p>
-			<div class="cta-buttons">
-				<a href="/packages" class="btn btn-primary">PT Packages</a>
-				<a href="/testimonials" class="btn btn-secondary">Testimonials</a>
-			</div>
 		</div>
+
+		<div class="contact-info">
+			<h2>Get in touch with me</h2>
+			<p>Tel: <a href="tel:0431959775">0431 959 775</a></p>
+			<p>Email: <a href="mailto:cjmacdiarmid@gmail.com">cjmacdiarmid@gmail.com</a></p>
+			<p>Gym: <a href="https://www.snapfitness.com/au/gyms/fitzroy/">Snap Fitness Fitzroy</a></p>
+			<a id="map-link" href="https://www.google.com.au/maps/place/Snap+Fitness+Fitzroy/@-37.8009896,144.9782001,17z/data=!4m5!3m4!1s0x6ad642df3aaa5579:0x7cbf4b2fa4ce7c24!8m2!3d-37.800837!4d144.978404">
+				<div class="map">
+					<div class="map-info">
+						<p>Snap Fitness Fitzroy</p>
+						<p>224 Brunswick Street</p>
+						<p>Fitzroy VIC 3065</p>
+					</div>
+				</div>
+			</a>
+		</div>
+
+		</div>
+  </div>
 
 		</div>
 
@@ -95,9 +114,5 @@
 
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
 	<script type="text/javascript" src="scripts/script.js"></script>
-	<script src="scripts/wufoo.js"></script>
-	<!--[if lt IE 10]>
-	<script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
 
 </html>
