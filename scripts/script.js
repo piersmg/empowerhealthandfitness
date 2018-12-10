@@ -27,4 +27,58 @@ $(document).ready(function() {
     $(".map").toggleClass("map-no-overlay");
   });
 
+  $('#time-options').on('change', function() {
+    if ( this.value == 'four') 
+    {
+      $(".weeks4").show();
+    }
+    else
+    {
+      $(".weeks4").hide();
+    }
+    if ( this.value == 'eight')
+    {
+      $(".weeks8").show();
+    }
+    else
+    {
+      $(".weeks8").hide();
+    }
+    if ( this.value == 'twelve')
+    {
+      $(".weeks12").show();
+    }
+    else
+    {
+      $(".weeks12").hide();
+    }
+  });
+
+  $('#time-options-thirty').on('change', function() {
+    if ( this.value == 'thirty-four') 
+    {
+      $(".thirty-weeks4").show();
+    }
+    else
+    {
+      $(".thirty-weeks4").hide();
+    }
+    if ( this.value == 'thirty-eight')
+    {
+      $(".thirty-weeks8").show();
+    }
+    else
+    {
+      $(".thirty-weeks8").hide();
+    }
+    if ( this.value == 'thirty-twelve')
+    {
+      $(".thirty-weeks12").show();
+    }
+    else
+    {
+      $(".thirty-weeks12").hide();
+    }
+  });
+
 });
