@@ -257,8 +257,12 @@ footer {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
+	<!--[if gte IE 8]>
+	margin-top: 5px;
+  justify-content: center;
+	<![endif]-->
 	margin-left: 16px;
-} 
+}
 
 .footer-list a {
 	text-decoration: none;
@@ -525,4 +529,10 @@ p {
   .home-blocks p {
   	width: 85%;
   }
+}
+
+@media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {  
+  .footer-list {
+  	justify-content: center;
+  	margin-top: 5px;
 }
