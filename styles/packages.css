@@ -1,0 +1,141 @@
+.header {
+	background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../images/ropes.jpg") no-repeat center center fixed;
+	 -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+	background-size: cover;
+}
+
+h1 {
+	margin: 0;
+}
+
+.packages-wrapper {
+	margin: 40px 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
+
+h2 {
+	color: #731264;
+	font-size: 2em;
+	margin: 20px 0 30px 0;
+}
+
+.programme-table {
+	display: flex;
+	justify-content: center;
+}
+
+.thirty-table {
+	margin: 40px 0;
+}
+
+#table-description {
+	text-align: center;
+}
+
+.table-headings {
+	font-weight: bold;
+
+}
+
+.table-numbers {
+	font-weight: bold;
+}
+
+.divTable{
+	display: table;
+	width: 80%;
+}
+
+.divTableRow {
+	display: table-row;
+}
+
+.divTable .divTableRow:nth-child(even) {
+  background: #f3f1f1;
+}
+
+.divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+}
+
+.divTableCell, .divTableHead {
+	border: 1px solid #ddd;
+	display: table-cell;
+	padding: 3px 10px;
+}
+
+.divTableCell {
+	text-align: center;
+}
+
+.divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+	font-weight: bold;
+}
+
+.divTableFoot {
+	background-color: #EEE;
+	display: table-footer-group;
+	font-weight: bold;
+}
+
+.divTableBody {
+	display: table-row-group;
+}
+
+.discount {
+	font-style: italic;
+	font-size: 13px;
+}
+
+.mobile-only {
+	display: none;
+}
+
+@media screen and (max-width: 440px) {
+	.mobile-hide {
+		display: none;
+	}
+	.mobile-only {
+		display: flex;
+	}
+	.weeks4, .weeks8, .weeks12, .thirty-weeks4, .thirty-weeks8, .thirty-weeks12 {
+		display: none;
+	}
+	.thirty-mobile-margin {
+		margin-left: -20px;
+	}
+	select {
+		text-align: center;
+    margin-left: 10px;
+    padding-top: 0px;
+    font-family: 'Quicksand', arial, sans-serif;
+    font-size: 15px;
+    border: none;
+    border-bottom: 2px #731264 solid;
+  }
+}
+
+@media screen and (max-width: 425px) {
+	#table-description {
+		padding: 0 20px;
+	}
+}
+
+@media screen and (max-width: 340px) {
+	select {
+		margin-left: 5px;
+		font-size: 13px;
+	}
+	.thirty-mobile-margin {
+		margin: 0px;
+	}
+}
