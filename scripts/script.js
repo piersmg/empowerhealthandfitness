@@ -1,5 +1,6 @@
 $(document).ready(function() {
 
+  // Burger menu/nav opening 
 	var $hamburger = $(".hamburger");
   $hamburger.on("click", function(e) {
   	// e.preventDefault();
@@ -18,15 +19,30 @@ $(document).ready(function() {
     });
   });
 
+  // Change border on hover on home blocks - homepage
   $(".home-blocks").hover(function() {
   	$(this).children('p').toggleClass("block-hover");
   });
 
+  // Remove overlay on hover on map - contact page
   $("#map-link").hover(function() {
     $(".map-info").toggleClass("map-info-hide");
     $(".map").toggleClass("map-no-overlay");
   });
 
+  // When read more is clicked: open correct testimonial and spin caret; move border of read more to fake border expanding with info; show the testimonial - testimonials page
+  $(".read").on("click", function() {
+    var clickread = $(this);
+    var id = clickread.attr("id");
+    clickread.children(".caret").toggleClass("rotate");
+    clickread.toggleClass("border-move");
+    var txt = clickread.hasClass("border-move") ? 'less' : 'more';
+    clickread.find(".more").text(txt);
+    $('.testimonial-body[data-id=' + id + ']').toggleClass('is-open');
+    $('.testimonial-text[data-id=' + id + ']').toggleClass("show");
+  });
+
+  // Show or hide package options in tables for mobiel - packages page
   $('#time-options').on('change', function() {
     if ( this.value == 'four') 
     {

@@ -6,13 +6,166 @@
 	background-size: cover;
 }
 
+.testimonials-wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 40px 0 40px 0px;
+}
+
 h1 {
 	margin: 0;
 	font-size: 84px;
 }
 
-.testimonials-wrapper {
-	padding: 0 40px;
+.testimonials-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	max-width: 900px;
+	margin: 40px auto;
+}
+
+.testimonial {
+	display: flex;
+	flex-direction: column;
+}
+
+.testimonial-body {
+	height: 0;
+	max-height: 0;
+	-webkit-transition: max-height 200ms ease-in;
+  -moz-transition: max-height 200ms ease-in;
+  -o-transition: max-height 200ms ease-in;
+  transition: max-height 200ms ease-in;
+	padding: 0 20px;
+}
+
+.testimonial-body.is-open {
+	height: auto;
+	max-height: 450px;
+	border-bottom: solid #731264 3px;
+	transition: 200ms ease-out;
+	margin-bottom: 20px;
+}
+
+.testimonial-text {
+	visibility: hidden;
+	opacity: 0;
+  transition: visibility 0s, opacity 200ms ease-in;
+  -webkit-transition: visibility 0s, opacity 200ms ease-in;
+}
+
+.testimonial-text.show {
+	margin-top: -40px;
+	visibility: visible;
+	opacity: 1;
+}
+
+.testimonial-quote {
+  display: flex;
+  font-style: italic;
+  font-size: 16px;
+}
+
+.quote {
+	margin-top: -25px;
+}
+
+.preview {
+	display: flex;
+	flex-direction: row;
+	margin: 20px;
+}
+
+.preview-text {
+	flex-direction: column;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.preview h3 {
+	margin: 25px 0 0 0;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+	color: #731264;
+	text-transform: uppercase;
+}
+
+.preview-pic {
+	margin-right: 20px;
+	height: 200px;
+	width: 400px;
+	background: url("../images/claire.jpg") no-repeat center center;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+	background-size: cover;
+}
+
+.pic-right {
+	margin: 0 0 0 20px;
+}
+
+.text-right {
+  text-align: right;   
+  display: flex;
+}
+
+.read {
+	text-align: left;
+	height: 23px;
+	padding-bottom: 0px;
+	border-bottom: 2px solid #731264;
+	cursor: pointer;
+	width: 250px;
+	font-weight: bold;
+	user-select: none;
+	-webkit-transition: padding-bottom 300ms, border 300ms ease-in;
+  -moz-transition: padding-bottom 300ms, border 300ms ease-in;
+  -o-transition: padding-bottom 300ms, border 300ms ease-in;
+  transition: padding-bottom 300ms, border 300ms ease-in;
+}
+
+.read-right {
+	align-self: flex-end;
+}
+
+.read p {
+	margin-top: 0px;
+}
+
+.read:hover {
+	border-color: #FC9607;
+}
+
+.read.border-move {
+	padding-bottom: 50px;
+	border: none;
+}
+
+.caret {
+	color: #731264;
+	position: relative;
+  left: 227px;
+  bottom: 40px;
+  -webkit-transition: transform 0.15s ease;
+  -moz-transition: transform 0.15s ease;
+  -o-transition: transform 0.15s ease;
+  transition: transform 0.15s ease;
+}
+
+.rotate {
+	transform: rotate(180deg);
+}
+
+.cta-block {
+	margin: 0 0 40px 0;
 }
 
 @media screen and (max-width: 768px) {

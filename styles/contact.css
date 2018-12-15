@@ -95,26 +95,28 @@ textarea:focus {
 }
 
 #saveForm {
-	border: solid #731264;
+	margin-top: 5px;
+  width: 150px;
+	text-decoration: none;
 	font-family: 'Josefin Sans', sans-serif;
-	text-transform: uppercase;
-	font-size: 1em;
 	font-weight: 700;
-	color: #731264;
+	font-size: 1.4em;
+  text-transform: uppercase;
+  background-color: #731264;
+  color: #fff;
+  border: solid #731264;
+  padding: 15px 18px 12px 18px;
+  text-align: center;
+  vertical-align: middle;
   cursor: pointer;
-  width: 100px;
-  height: 35px;
-  margin-top: 20px;
-  background: none;
-  padding: 9px 0;
 }
 
 #saveForm:hover {
-	border-color: #FC9607;
+	background-color: #983789;
 }
 
 #saveForm:focus {
-	border-color: #FC9607;
+	background-color: #983789;
 }
 
 .hide {
