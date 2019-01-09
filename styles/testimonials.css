@@ -24,14 +24,24 @@ h1 {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	max-width: 900px;
-	margin: 40px auto;
+	margin: 20px auto;
 }
 
 .testimonial {
 	display: flex;
 	flex-direction: column;
 	margin: 20px 0;
+}
+
+.testimonial-grey {
+	background-color: #eee;
+	width: 100vw;
+	padding: 20px 0;
+}
+
+.testimonial-contents {
+	max-width: 900px;
+	margin: 0 auto;
 }
 
 .testimonial-body {
