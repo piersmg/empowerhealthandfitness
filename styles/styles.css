@@ -257,10 +257,6 @@ footer {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
-	<!--[if gte IE 8]>
-	margin-top: 5px;
-  justify-content: center;
-	<![endif]-->
 	margin-left: 16px;
 }
 
@@ -306,6 +302,24 @@ p {
 	font-size: 18px;
 }
 
+.cta-block {
+	display: flex;
+  flex-direction: column;
+  margin: 40px 0;
+  align-items: center;
+}
+
+#cta-header {
+	color: #731264;
+	display: flex;
+	text-align: center;
+	max-width: 700px;
+	margin-top: 40px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 1.3em;
+	text-transform: uppercase;
+}
+
 .cta-buttons {
 	display: flex;
 	flex-direction: row;
@@ -325,8 +339,6 @@ p {
   padding: 15px 18px 12px 18px;
   text-align: center;
   vertical-align: middle;
-  -ms-touch-action: manipulation;
-  touch-action: manipulation;
   cursor: pointer;
 }
 
@@ -342,6 +354,28 @@ p {
 
 .btn-secondary:hover {
 	border-color: #731264;
+}
+
+.quote {
+	font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 90px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+	color: #FC9607;
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
 }
 
 .header {
@@ -425,7 +459,7 @@ p {
 }
 
 #testimonials {
-	background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../images/claire+louise.jpg") no-repeat center center;
+	background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../images/barbell.jpg") no-repeat center center;
 	-webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -433,7 +467,7 @@ p {
 }
 
 #packages {
-	background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../images/dumbbells.jpg") no-repeat center center;
+	background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../images/ropes.jpg") no-repeat center center;
 	-webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -441,7 +475,7 @@ p {
 }
 
 #about {
-	background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../images/claire.jpg") no-repeat center center;
+	background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../images/claire+louise.jpg") no-repeat center center;
 	-webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
