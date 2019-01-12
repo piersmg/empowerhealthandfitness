@@ -153,7 +153,7 @@ body {
 }
 
 .navigation li:hover {
-	color: #ec9133;
+	color: #55d6d6;
 }
 
 .navigation a {
@@ -178,7 +178,7 @@ body {
 }
 
 .nav-logo:hover {
-	border-color: #ec9133;
+	border-color: #55d6d6;
 }
 
 .nav-logo p {
@@ -213,8 +213,8 @@ footer {
   position: absolute;
   top: 50%;
   left: 0;
-  border-top: 5px solid #983789;
-  background: #983789;
+  border-top: 5px solid #b74286;
+  background: #b74286;
   width: 100%;
   transform: translateY(-50%);
   z-index: 0;
@@ -230,14 +230,14 @@ footer {
 }
 
 .footer-border {
-	border: solid #983789 5px;
+	border: solid #b74286 5px;
 	margin: 14px 0;
-	color: #983789;
+	color: #b74286;
 	flex-direction: column;
 }
 
 .footer-border:hover{
-	border-color: #ec9133;
+	border-color: #55d6d6;
 }
 
 .footer-heading {
@@ -272,11 +272,11 @@ footer {
 	font-size: 16px;
 	text-transform: uppercase;
 	font-weight: 700;
-	color: #983789;
+	color: #b74286;
 }
 
 .footer-list p:hover {
-	color: #ec9133;
+	color: #55d6d6;
 }
 
 h1, h2{
@@ -310,7 +310,7 @@ p {
 }
 
 #cta-header {
-	color: #983789;
+	color: #b74286;
 	display: flex;
 	text-align: center;
 	max-width: 700px;
@@ -333,9 +333,9 @@ p {
 	font-weight: 700;
 	font-size: 1.4em;
   text-transform: uppercase;
-  background-color: #983789;
+  background-color: #b74286;
   color: #fff;
-  border: solid #983789;
+  border: solid #b74286;
   padding: 15px 18px 12px 18px;
   text-align: center;
   vertical-align: middle;
@@ -343,17 +343,17 @@ p {
 }
 
 .btn-primary:hover {
-	background-color: #983789cf;
+	background-color: #b74286cf;
 }
 
 .btn-secondary {
-	border-color: #ec9133;
+	border-color: #55d6d6;
 	background: none;
-  color: #ec9133;
+  color: #55d6d6;
 }
 
 .btn-secondary:hover {
-	border-color: #983789;
+	border-color: #b74286;
 }
 
 .quote {
@@ -370,7 +370,7 @@ p {
   direction: ltr;
   -webkit-font-feature-settings: 'liga';
   -webkit-font-smoothing: antialiased;
-	color: #ec9133;
+	color: #55d6d6;
   -moz-transform: scaleX(-1);
   -o-transform: scaleX(-1);
   -webkit-transform: scaleX(-1);
@@ -455,7 +455,7 @@ p {
 }
 
 .block-hover {
-	border-color: #ec9133 !important;
+	border-color: #55d6d6 !important;
 }
 
 #testimonials {

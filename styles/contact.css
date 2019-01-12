@@ -1,5 +1,5 @@
 .header {
-	background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../images/claire-purple.jpg") no-repeat bottom center fixed;
+	background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../images/claire-purple.jpg") no-repeat center center fixed;
 	 -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -33,7 +33,7 @@ label span {
 
 input {
 	border-width: 0 0 2px 0;
-  border-color: #983789;
+  border-color: #b74286;
   width: 100%;
   font-size: 1em;
   font-family: 'Quicksand', arial, sans-serif;
@@ -41,7 +41,7 @@ input {
 
 input:focus {
 	outline: none;
-	border-color: #ec9133;
+	border-color: #55d6d6;
 }
 
 input:focus + span, input:not(:placeholder-shown) + span {
@@ -64,13 +64,13 @@ textarea {
 	font-family: 'Quicksand', arial, sans-serif;
 	color: #000;
 	font-size: 0.9em;
-	border-color: #983789;
+	border-color: #b74286;
 	width: 393px;
 }
 
 textarea:focus {
 	outline: none;
-  border-color: #ec9133;
+  border-color: #55d6d6;
 }
 
 #name-fields{
@@ -103,9 +103,9 @@ textarea:focus {
 	font-weight: 700;
 	font-size: 1.4em;
   text-transform: uppercase;
-  background-color: #983789;
+  background-color: #b74286;
   color: #fff;
-  border: solid #983789;
+  border: solid #b74286;
   padding: 15px 18px 12px 18px;
   text-align: center;
   vertical-align: middle;
@@ -113,11 +113,11 @@ textarea:focus {
 }
 
 #saveForm:hover {
-	background-color: #983789cf;
+	background-color: #b74286cf;
 }
 
 #saveForm:focus {
-	background-color: #983789cf;
+	background-color: #b74286cf;
 }
 
 .hide {
@@ -133,7 +133,7 @@ textarea:focus {
 }
 
 .contact-wrapper h2 {
-	color: #983789;
+	color: #b74286;
 	font-size: 2em;
 	margin: 20px 0 30px 0;
 }
