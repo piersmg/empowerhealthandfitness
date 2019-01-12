@@ -1,5 +1,5 @@
 .header {
-	background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../images/claire4.jpg") no-repeat center center fixed;
+	background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../images/claire-green.jpg") no-repeat center center fixed;
 	 -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -21,7 +21,7 @@
 }
 
 #title-highlight {
-	color: #FC9607;
+	color: #ec9133;
 }
 
 .about-first-block {
@@ -36,25 +36,23 @@
 
 .about-images {
 	width: 57.5vw;
+	height: 100vh;
 }
 
 #about-first-image {
-	background: url("../images/claire+louise.jpg") no-repeat top left;
+	background: url("../images/claire-blue.jpg") no-repeat center center;
 	-webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
 	background-size: cover;
-	height: 114vh;
-  transform: rotateY(180deg);
 }
 
 #about-second-image {
-	background: url("../images/dumbbells.jpg") no-repeat center center;
+	background: url("../images/claire-kb.jpg") no-repeat center center;
 	-webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
 	background-size: cover;
-	height: 100vh;
 }
 
 .about-text {
