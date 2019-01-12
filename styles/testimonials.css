@@ -57,7 +57,7 @@ h1 {
 .testimonial-body.is-open {
 	height: auto;
 	max-height: 450px;
-	border-bottom: solid #b74286 3px;
+	border-bottom: solid #D04395 3px;
 	transition: 200ms ease-out;
 	margin-bottom: 20px;
 }
@@ -100,7 +100,7 @@ h1 {
 	font-family: 'Josefin Sans', sans-serif;
 	font-size: 20px;
 	font-weight: 700;
-	color: #b74286;
+	color: #D04395;
 	text-transform: uppercase;
 }
 
@@ -123,7 +123,7 @@ h1 {
 	text-align: left;
 	height: 23px;
 	padding-bottom: 0px;
-	border-bottom: 2px solid #b74286;
+	border-bottom: 2px solid #D04395;
 	cursor: pointer;
 	width: 250px;
 	font-weight: bold;
@@ -143,7 +143,7 @@ h1 {
 }
 
 .read:hover {
-	border-color: #55d6d6;
+	border-color: #55D6B4;
 }
 
 .read.border-move {
@@ -152,7 +152,7 @@ h1 {
 }
 
 .caret {
-	color: #b74286;
+	color: #D04395;
   -webkit-transition: transform 0.15s ease;
   -moz-transition: transform 0.15s ease;
   -o-transition: transform 0.15s ease;
