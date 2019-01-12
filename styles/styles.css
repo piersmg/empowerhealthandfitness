@@ -213,8 +213,8 @@ footer {
   position: absolute;
   top: 50%;
   left: 0;
-  border-top: 5px solid #731264;
-  background: #731264;
+  border-top: 5px solid #983789;
+  background: #983789;
   width: 100%;
   transform: translateY(-50%);
   z-index: 0;
@@ -230,9 +230,9 @@ footer {
 }
 
 .footer-border {
-	border: solid #731264 5px;
+	border: solid #983789 5px;
 	margin: 14px 0;
-	color: #731264;
+	color: #983789;
 	flex-direction: column;
 }
 
@@ -272,7 +272,7 @@ footer {
 	font-size: 16px;
 	text-transform: uppercase;
 	font-weight: 700;
-	color: #731264;
+	color: #983789;
 }
 
 .footer-list p:hover {
@@ -310,7 +310,7 @@ p {
 }
 
 #cta-header {
-	color: #731264;
+	color: #983789;
 	display: flex;
 	text-align: center;
 	max-width: 700px;
@@ -333,9 +333,9 @@ p {
 	font-weight: 700;
 	font-size: 1.4em;
   text-transform: uppercase;
-  background-color: #731264;
+  background-color: #983789;
   color: #fff;
-  border: solid #731264;
+  border: solid #983789;
   padding: 15px 18px 12px 18px;
   text-align: center;
   vertical-align: middle;
@@ -343,7 +343,7 @@ p {
 }
 
 .btn-primary:hover {
-	background-color: #983789;
+	background-color: #983789cf;
 }
 
 .btn-secondary {
@@ -353,7 +353,7 @@ p {
 }
 
 .btn-secondary:hover {
-	border-color: #731264;
+	border-color: #983789;
 }
 
 .quote {
