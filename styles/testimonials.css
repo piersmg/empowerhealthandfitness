@@ -57,7 +57,7 @@ h1 {
 .testimonial-body.is-open {
 	height: auto;
 	max-height: 450px;
-	border-bottom: solid #731264 3px;
+	border-bottom: solid #983789 3px;
 	transition: 200ms ease-out;
 	margin-bottom: 20px;
 }
@@ -100,7 +100,7 @@ h1 {
 	font-family: 'Josefin Sans', sans-serif;
 	font-size: 20px;
 	font-weight: 700;
-	color: #731264;
+	color: #983789;
 	text-transform: uppercase;
 }
 
@@ -123,7 +123,7 @@ h1 {
 	text-align: left;
 	height: 23px;
 	padding-bottom: 0px;
-	border-bottom: 2px solid #731264;
+	border-bottom: 2px solid #983789;
 	cursor: pointer;
 	width: 250px;
 	font-weight: bold;
@@ -152,7 +152,7 @@ h1 {
 }
 
 .caret {
-	color: #731264;
+	color: #983789;
   -webkit-transition: transform 0.15s ease;
   -moz-transition: transform 0.15s ease;
   -o-transition: transform 0.15s ease;
