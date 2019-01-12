@@ -33,7 +33,7 @@ label span {
 
 input {
 	border-width: 0 0 2px 0;
-  border-color: #b74286;
+  border-color: #D04395;
   width: 100%;
   font-size: 1em;
   font-family: 'Quicksand', arial, sans-serif;
@@ -41,7 +41,7 @@ input {
 
 input:focus {
 	outline: none;
-	border-color: #55d6d6;
+	border-color: #55D6B4;
 }
 
 input:focus + span, input:not(:placeholder-shown) + span {
@@ -64,13 +64,13 @@ textarea {
 	font-family: 'Quicksand', arial, sans-serif;
 	color: #000;
 	font-size: 0.9em;
-	border-color: #b74286;
+	border-color: #D04395;
 	width: 393px;
 }
 
 textarea:focus {
 	outline: none;
-  border-color: #55d6d6;
+  border-color: #55D6B4;
 }
 
 #name-fields{
@@ -103,9 +103,9 @@ textarea:focus {
 	font-weight: 700;
 	font-size: 1.4em;
   text-transform: uppercase;
-  background-color: #b74286;
+  background-color: #D04395;
   color: #fff;
-  border: solid #b74286;
+  border: solid #D04395;
   padding: 15px 18px 12px 18px;
   text-align: center;
   vertical-align: middle;
@@ -113,11 +113,11 @@ textarea:focus {
 }
 
 #saveForm:hover {
-	background-color: #b74286cf;
+	background-color: #D04395cf;
 }
 
 #saveForm:focus {
-	background-color: #b74286cf;
+	background-color: #D04395cf;
 }
 
 .hide {
@@ -133,7 +133,7 @@ textarea:focus {
 }
 
 .contact-wrapper h2 {
-	color: #b74286;
+	color: #D04395;
 	font-size: 2em;
 	margin: 20px 0 30px 0;
 }
