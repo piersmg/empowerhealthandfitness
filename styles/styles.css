@@ -153,7 +153,7 @@ body {
 }
 
 .navigation li:hover {
-	color: #FC9607;
+	color: #ec9133;
 }
 
 .navigation a {
@@ -178,7 +178,7 @@ body {
 }
 
 .nav-logo:hover {
-	border-color: #FC9607;
+	border-color: #ec9133;
 }
 
 .nav-logo p {
@@ -237,7 +237,7 @@ footer {
 }
 
 .footer-border:hover{
-	border-color: #FC9607;
+	border-color: #ec9133;
 }
 
 .footer-heading {
@@ -276,7 +276,7 @@ footer {
 }
 
 .footer-list p:hover {
-	color: #FC9607;
+	color: #ec9133;
 }
 
 h1, h2{
@@ -347,9 +347,9 @@ p {
 }
 
 .btn-secondary {
-	border-color: #FC9607;
+	border-color: #ec9133;
 	background: none;
-  color: #FC9607;
+  color: #ec9133;
 }
 
 .btn-secondary:hover {
@@ -370,7 +370,7 @@ p {
   direction: ltr;
   -webkit-font-feature-settings: 'liga';
   -webkit-font-smoothing: antialiased;
-	color: #FC9607;
+	color: #ec9133;
   -moz-transform: scaleX(-1);
   -o-transform: scaleX(-1);
   -webkit-transform: scaleX(-1);
@@ -455,7 +455,7 @@ p {
 }
 
 .block-hover {
-	border-color: #FC9607 !important;
+	border-color: #ec9133 !important;
 }
 
 #testimonials {
@@ -475,7 +475,7 @@ p {
 }
 
 #about {
-	background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../images/claire+louise.jpg") no-repeat center center;
+	background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../images/claire-blue.jpg") no-repeat center center;
 	-webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
