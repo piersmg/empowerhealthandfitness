@@ -101,10 +101,10 @@
   	width: 80%
   }
   #about-first-image {
-  	height: 80vh;
+  	display: none;
   }
   #about-second-image {
-  	display: none;
+  	height: 80vh;
   }
   .about-wrapper h2{
   	margin-bottom: 20px;
@@ -136,7 +136,7 @@
 	.about-images {
 		width: 100vw;
 	}
-	#about-first-image {
+	#about-second-image {
 		height: 70vh;
 	}
 }
