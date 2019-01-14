@@ -1,5 +1,5 @@
 .header {
-	background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../images/barbell.jpg") no-repeat center center fixed;
+	background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../images/claire-bar.jpg") no-repeat center center fixed;
 	 -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -128,10 +128,10 @@ h1 {
 	width: 250px;
 	font-weight: bold;
 	user-select: none;
-	-webkit-transition: padding-bottom 300ms, border 300ms ease-in;
-  -moz-transition: padding-bottom 300ms, border 300ms ease-in;
-  -o-transition: padding-bottom 300ms, border 300ms ease-in;
-  transition: padding-bottom 300ms, border 300ms ease-in;
+	-webkit-transition: padding-bottom 300ms, border 300ms ease-in, border-color 200ms;
+  -moz-transition: padding-bottom 300ms, border 300ms ease-in, border-color 200ms;
+  -o-transition: padding-bottom 300ms, border 300ms ease-in, border-color 200ms;
+  transition: padding-bottom 300ms, border 300ms ease-in, border-color 200ms;
 }
 
 .read-right {

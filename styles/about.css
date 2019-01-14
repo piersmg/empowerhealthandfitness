@@ -40,7 +40,7 @@
 }
 
 #about-first-image {
-	background: url("../images/claire-blue.jpg") no-repeat center center;
+	background: url("../images/claire-kb.jpg") no-repeat center center;
 	-webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -48,7 +48,7 @@
 }
 
 #about-second-image {
-	background: url("../images/claire-kb.jpg") no-repeat center center;
+	background: url("../images/claire-blue.jpg") no-repeat center center;
 	-webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
