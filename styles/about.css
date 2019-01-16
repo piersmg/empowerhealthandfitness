@@ -120,7 +120,7 @@
 	}
 /*	.about-first-block .about-text {
 	}*/
-	.about-second-block .about-text {
+	.about-text {
 		padding: 0 10px;
 	}
 	.quote {
@@ -134,7 +134,7 @@
 
 @media screen and (max-width: 768px) {
 	.about-images {
-		width: 100vw;
+		width: 90%;
 	}
 	#about-second-image {
 		height: 70vh;
