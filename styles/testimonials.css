@@ -56,7 +56,7 @@ h1 {
 
 .testimonial-body.is-open {
 	height: auto;
-	max-height: 450px;
+	max-height: 520px;
 	border-bottom: solid #D04395 3px;
 	transition: 200ms ease-out;
 	margin-bottom: 20px;
